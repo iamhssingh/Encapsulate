@@ -1,2 +1,2 @@
 # Encapsulate
-A simple college project for encyrption/decryption 
+A college project revolving around Encryption Decryption

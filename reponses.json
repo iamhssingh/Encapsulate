@@ -1,0 +1,57 @@
+Register:
+{"_username":"testaccount","_name":"Himanshu Shankar","_password":"test_123_456","_email":"test@test.test"}
+
+Login:
+Request -> {"_username":"testaccount","_password":"test_123_456"}
+Response -> {"success":1,"message":"Logged In successfully!","userID":"2","token":"869135b763e500363855b4b01b180650e17e8a794b1abac0721a0040dfbe50cf43a33bc3a606d8f89b1a6f922f59747843944a309dfef3f262aeb070c4176044ffc89496b53ac5414856334454d9655bd2691de3acbc1b527ebd28300d4ea0163b6a48b1b28bb738a66967d4a3e1ae42e91c551e6d3a1c80d797592e0336b7"}
+
+
+GetData:
+Request -> {"_userID":2,"_token":"334109e905dc6a4d35435c24a93b5f3df3eae5be09ee347d7c38f3a271808e75bd3b9d2a3a7f0e20c1a3a4c7e092b3d796b316a4e13904e199bd4f3a9d3b1246008830307a2f0a82929337713e6933d43c4d54eef409dc13b22f15bc1413fa776a8d2660d06f682e34f4c249b06ac605de66c98f070dc3306dea49d323399c","_action":"getboth"}
+Reply ->  {"token":"334109e905dc6a4d35435c24a93b5f3df3eae5be09ee347d7c38f3a271808e75bd3b9d2a3a7f0e20c1a3a4c7e092b3d796b316a4e13904e199bd4f3a9d3b1246008830307a2f0a82929337713e6933d43c4d54eef409dc13b22f15bc1413fa776a8d2660d06f682e34f4c249b06ac605de66c98f070dc3306dea49d323399c","secrets":{},"keys":{},"success":1,"message":"Successfully sent the data!"}
+
+  {"token":"1265058b7a330fe60e051f8523a6f96be26183a955836405090925efe8b25687946ad8172ba0ea5b01c1d6cde409f2026a72555173b7948b226132e92d1100ecd161df84c73b443b88e8355777d5d84397f4f46150536aee387846c98d94869e15e39f2e9dbab66593bc59105b05530c6df7af43cc8ba365c8eb5ef0b44cfb",
+"secrets":{
+		"0":{
+			"secretID":"2",
+			"secretName":"yay",
+			"secretInfo":"This is a yay",
+			"secretAdd":"www.yay.coom",
+			"secretCDate":"2016",
+			"secretData":"yayingWeOKAY"
+		},
+		"1":{
+			"secretID":"5",
+			"secretName":"yay",
+			"secretInfo":"This is a yay",
+			"secretAdd":"www.yay.coom",
+			"secretCDate":"2016",
+			"secretData":"yayingWeOKAY"
+		}
+	},
+"keys":{
+		"0":{
+			"keyID":"2",
+			"keyName":"OKAY",
+			"keyInfo":"Nailed it",
+			"keyCDate":"2016-04-17 17:04:02"
+		}
+	},
+"success":1,
+"message":"Successfully sent the data!"}
+
+KEY:
+Request -> {"_userID":2,"_token":"b85b18f68e0fb8915de7ec8f7d595571cd6c4d1853080e901f51ba5e40cc376f1c57754bedf4c11fbee37bce59ac9e5fba9525e58e0c9dfd4bce2ce4d15b39038cfe94d1fcc8a9f7db3ab6b0fc6dd52b2378a94e578b99425b9c4f79c99267e9d48a10790107967d6ee7425158f79ca37d4291ee987272b3cc0ed690793243","_action":"edit","key_ID":1,"key_Name":"OKAY","key_Data":"WeOKAY","key_Info":"Nailed it","_password":"test_123_456"}
+
+Reply ->
+{"token":"a331e2589481f02bb2e565c4155502ff8a2f852dcfcee7214e4c51a5e5d98ce7dcd4985cb30f5aa68ffd2d8f3453157ebf0f9bdfc788452e9b1a8b7be8bf881872edff8a26bb5bf2846518422c5cebc0769b205e3b2b64ffcbc4035b028c14a38397deb716dd6618d903f2428be4e47e719df7012640249fafc55d822a0edc","success":1,"message":"Key changed successfully!"}
+ {"token":"b3fba6c0f54c3b92fa55c8dfcfb13133b0f6c92dc9f259060aa78d82ac895728c309c30e723a56ae4006ff9e0ef214b3eaea41a7156cfde16357ad2057701f18c481dd9131a1b3006101b72a1d12d18b7be004ca2e2090147cda9a4a562fb01fe798507015be493e034569459c47ea5bbda9b8895c8fa1a121935939990122","success":1,"message":"Key removed successfully!"}
+
+SECRET:
+Request ->{"_userID":2,"_token":"1801999d33aa13bd8376827585823514ad59953ef570c90ca6dce99f44d182b62497bbf196b3568667feb6d81d1c7419a8bcea30168c714cf431146e660a7205e9cc0713cb28867eb1c8415e67bf07beafca852c1c8ab92e6c787b262373847e033d45a1e6632ed4f627e38375f1b5c76d86907a1f1e9b4841f9eaa97d203b","_action":"add","secret_Name":"testS","secret_Data":"testing","secret_Info":"This is a test","secret_Add":"This is a test","_password":"test_123_456","key_ID":2,"_encapID":1}
+Reply ->  {"token":"8688355f1d34040689140578ec653e2cea6c5810143486212c359e0d5eb1373589f95eeb4f49cd4a66c948ec8fb2709f3970db56af8804c7045746317fee421bf35bc05613368cbc879343ecc0a4d4467017fb05e391f1519e15df135065de183ff631e9904fc7ba616ae8414d7ae18a3f972f7641577d75a68b821f2e56b3","success":1,"message":"Secret added successfully!"}
+ {"token":"1f12fc3cbfe7d781d74429200f6adfbd292856263e510399d7744bef8b7afafa4b75712d997b2b22f721c0c6a69aa68762513de4d51096222087995a5474cf6cef53447f78219604bd038f21ba47831e1e4032c0444512bf2765008607045e74236431b67f241256a64bba807919602bc0d2029e68113d1f77e73c82e1a0f6","success":-3,"message":"ERROR_DECRYPT_MESSAGE"}
+
+ {"token":"acb9ef4b8d4d2169801eec45b16705dc8c8b5a2c3b50c2ad70e6ce10b8e033afcba828ebaa235d8aa5586ef33e9bf996fd98a0bb6106e9bd97a66957bdfe663f908bbcab7d87fd64e41372669ce022e955e35203de8a1c4d3e06f82f3a88a6c4c35722ac072842890f46f2078f04498364d95aac00776ad5d2b9247fb3536a","success":1,"message":"Decryption successful!","secretdata":"yayingWeOKAY"}
+
+

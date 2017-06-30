@@ -1,0 +1,22 @@
+[15-Mar-2016 14:55:23 Etc/GMT] PHP Warning:  include(includes/config.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 9
+[15-Mar-2016 14:55:23 Etc/GMT] PHP Warning:  include(includes/config.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 9
+[15-Mar-2016 14:55:23 Etc/GMT] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 9
+[15-Mar-2016 14:55:23 Etc/GMT] PHP Notice:  Undefined variable: user in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 11
+[15-Mar-2016 14:55:23 Etc/GMT] PHP Fatal error:  Call to a member function get_all() on a non-object in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 11
+[15-Mar-2016 20:27:01 Asia/Kolkata] PHP Warning:  include(classes/user.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:01 Asia/Kolkata] PHP Warning:  include(classes/user.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:01 Asia/Kolkata] PHP Warning:  include(): Failed opening 'classes/user.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:01 Asia/Kolkata] PHP Fatal error:  Class 'User' not found in /home/itiespnh/public_html/srmgpa/includes/config.php on line 34
+[15-Mar-2016 14:57:28 Etc/GMT] PHP Warning:  include(../includes/config.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 9
+[15-Mar-2016 14:57:28 Etc/GMT] PHP Warning:  include(../includes/config.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 9
+[15-Mar-2016 14:57:28 Etc/GMT] PHP Warning:  include(): Failed opening '../includes/config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 9
+[15-Mar-2016 14:57:28 Etc/GMT] PHP Notice:  Undefined variable: user in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 11
+[15-Mar-2016 14:57:28 Etc/GMT] PHP Fatal error:  Call to a member function get_all() on a non-object in /home/itiespnh/public_html/srmgpa/bs336/css/newphp.php on line 11
+[15-Mar-2016 20:27:45 Asia/Kolkata] PHP Warning:  include(classes/user.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:45 Asia/Kolkata] PHP Warning:  include(classes/user.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:45 Asia/Kolkata] PHP Warning:  include(): Failed opening 'classes/user.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:45 Asia/Kolkata] PHP Fatal error:  Class 'User' not found in /home/itiespnh/public_html/srmgpa/includes/config.php on line 34
+[15-Mar-2016 20:27:46 Asia/Kolkata] PHP Warning:  include(classes/user.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:46 Asia/Kolkata] PHP Warning:  include(classes/user.php): failed to open stream: No such file or directory in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:46 Asia/Kolkata] PHP Warning:  include(): Failed opening 'classes/user.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/itiespnh/public_html/srmgpa/includes/config.php on line 33
+[15-Mar-2016 20:27:46 Asia/Kolkata] PHP Fatal error:  Class 'User' not found in /home/itiespnh/public_html/srmgpa/includes/config.php on line 34
